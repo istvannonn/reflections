@@ -1,12 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
-You will create a hidden GIT related folder which will be used to store all the information's regarding your new repository.
+  You will create a hidden GIT related folder which will be used to store all the information's regarding your new repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Is an intermediate area where you can add files you want to be tracked by the repository and once you are ready to commit those files can be moved from staging area to the online repository.
+  Is an intermediate area where you can add files you want to be tracked by the repository and once you are ready to commit those files can be moved from staging area to the online repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+  You can track all the files where you made changes and check which file you want to commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
