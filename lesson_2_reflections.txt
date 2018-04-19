@@ -1,21 +1,25 @@
-What happens when you initialize a repository? Why do you need to do it?
-  You will create a hidden GIT related folder which will be used to store all the information's regarding your new repository.
+1.  What happens when you initialize a repository? Why do you need to do it?
+    You will create a hidden GIT related folder which will be used to store all the information's regarding your new repository.
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-  Is an intermediate area where you can add files you want to be tracked by the repository and once you are ready to commit those files can be moved from staging area to the online repository.
+2.  How is the staging area different from the working directory and the repository?
+    What value do you think it offers?
+    Is an intermediate area where you can add files you want to be tracked by the repository and once you are ready to commit those files can be moved from staging area to the online repository.
 
-How can you use the staging area to make sure you have one commit per logical
+3.  How can you use the staging area to make sure you have one commit per logical
 change?
-  You can track all the files where you made changes and check which file you want to commit.
+    You can track all the files where you made changes and check which file you want to commit.
 
-What are some situations when branches would be helpful in keeping your history
+4.  What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    It gives you the possibility to experiment new features or create a sub version of your project for a different language speakers (French), but keep the master branch intact (unchanged).
 
-How do the diagrams help you visualize the branch structure?
+5.  How do the diagrams help you visualize the branch structure?
+    In case of any confusion diagram can show you which commit are related to each other. Can show you the reachability of every commit when you want to go back to a previous one and check things out.
 
-What is the result of merging two branches together? Why do we represent it in
+6.  What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    Merging two branches together will merge all the changes into a single branch (usually, merging to master branch). This way changes made in the sub branch will be available in the master branch too. For a better understanding how things evolve a linear diagram will help visualiaze how commits are connected and related to each other.
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+7.  What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+    Git can identify if there is any conflict between merging 2 (or more) commits together, and brings it to your attention to solve the conflict. This way can be avoid an automatic merging which can cause more bugs and things that need to be fixed later.Efficient, fast, reliable solution.

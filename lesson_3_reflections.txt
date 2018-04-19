@@ -1,2 +1,5 @@
 1. When would you want to use a remote repository rather than keeping all your work local?
 When you want to make your repository available to others you can push them to a public remote repository online.
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+In a really busy repository changes are happening very often and alter or lose your work, or even dealing with conflicts that are happening because of that. Also, a repository can contain several branches and you may not want them all locally.
