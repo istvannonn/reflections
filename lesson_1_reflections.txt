@@ -17,3 +17,4 @@ How might using version control make you more confident to make changes that cou
 Becomes more easy to find and fix bugs during development time.
 
 Now that you have your workspace set up, what do you want to try using Git for?
+**Could use it for personal projects, for upcoming lessons, to practice, and much more
