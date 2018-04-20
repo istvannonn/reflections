@@ -4,8 +4,11 @@ When you want to make your repository available to others you can push them to a
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In a really busy repository changes are happening very often and alter or lose your work, or even dealing with conflicts that are happening because of that. Also, a repository can contain several branches and you may not want them all locally.
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Branches - you should consider creating a new branch, and not working on the master branch, when you want to try out new features or experiment, create a translation of the repository into a different language (French, Italian, etc.)
 Clones - making a copy of the repository from others on your local machine so you can alter yours instead of making changes to the original one.
 Forks - you clone a repository inside GitHub, than you can clone to your machine.
 If we clone a repository from another person directly into our machine you won't be able to push your commits back, unless you have permission. While making a fork than clone locally, your push commits will go under your GitHub account.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+It helps to keep your project up-to-date, so both local and remote repository will be the same. Like when you need to track back a change will be much easier to find and fix. Not doing this you may end up with different branches and makes things harder to follow.
