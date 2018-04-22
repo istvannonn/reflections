@@ -12,3 +12,6 @@ If we clone a repository from another person directly into our machine you won't
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 It helps to keep your project up-to-date, so both local and remote repository will be the same. Like when you need to track back a change will be much easier to find and fix. Not doing this you may end up with different branches and makes things harder to follow.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git or GitHub the progress of a project would be considerably slower and harder to collaborate with others. On small projects may not be a problem, but still requires all the participants to be in the same place, whereas working through GitHub, changes can be made remotely at any given time.
