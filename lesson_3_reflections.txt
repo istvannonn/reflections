@@ -15,3 +15,8 @@ It helps to keep your project up-to-date, so both local and remote repository wi
 
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without Git or GitHub the progress of a project would be considerably slower and harder to collaborate with others. On small projects may not be a problem, but still requires all the participants to be in the same place, whereas working through GitHub, changes can be made remotely at any given time.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+On a big project where are multiple contributors, you should consider creating a separate branch for your changes. Once your changes are done you can than create a merge pull request. It may happen others are working in the same time in the repository and they want to submit their changes. With a merge pull request you can avoid any overwriting and safely resolve any conflicts can occur.
+Working only on the master would be easier to follow the progress, you can be always up-to-date with a simple pull command, but can be a challenge to allow others doing changes.
+Creating and working on a separate branch will be the safest way to do changes, which later on can be merge with the master branch.
